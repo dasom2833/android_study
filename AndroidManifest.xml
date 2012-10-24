@@ -11,13 +11,13 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
-        <activity android:name="MainActivity" android:label="힘들다"></activity>
-        <intent-fillter>
-           <action android:name="android.intent.action.MAIN"></action>
-           <categori android:name="android.intent.category.LAUNCHER">
-               
-           </categori>
-        </intent-fillter>
+        <activity android:label="뷰다" android:name="ViewEx">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
